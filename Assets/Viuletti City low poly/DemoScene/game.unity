@@ -405,7 +405,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a17c9f5d57607d74ba0d145e74133621, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18270,8 +18270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -880, y: -502.68228}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -631.522, y: 481.78644}
+  m_SizeDelta: {x: 656.9561, y: 116.4271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748394630
 MonoBehaviour:
@@ -18286,7 +18286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.9622642, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18295,11 +18295,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 70
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -19307,7 +19307,7 @@ GameObject:
   - component: {fileID: 791232018}
   - component: {fileID: 791232019}
   m_Layer: 0
-  m_Name: Score
+  m_Name: ScoreManagerObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50940,7 +50940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a085e05018cad448d25633866dd094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreManager: {fileID: 0}
+  scoreManager: {fileID: 791232019}
 --- !u!114 &38592415311289864
 MonoBehaviour:
   m_ObjectHideFlags: 0
