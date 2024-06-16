@@ -159,4 +159,4 @@ Nesse codigo mudamos o texto do canva selecionado e mudamos para o score, para i
 ![image](https://github.com/LeonardoAdolfo/ProjetoGTA2/assets/78151545/adc1b25b-d7fa-4d9c-9216-fc9b31d349df)
 
 ## Video
-![video](https://www.youtube.com/watch?v=ch7NyM0UhtA)
+[![Vídeo de Apresentação](https://img.youtube.com/vi/ch7NyM0UhtA/0.jpg)](https://www.youtube.com/watch?v=ch7NyM0UhtA)
